@@ -1,0 +1,19 @@
+{
+  "format": "simple-dial-custom-widgets",
+  "version": 1,
+  "widgets": [
+    {
+      "id": "cw-example-rss-cisa-ics",
+      "type": "rss-feed",
+      "name": "CISA ICS Advisories",
+      "icon": "🚨",
+      "customIcon": "https://www.cisa.gov/profiles/cisad8_gov/themes/custom/gesso/favicon.png",
+      "feedUrl": "https://www.cisa.gov/cybersecurity-advisories/ics-advisories.xml",
+      "refreshMinutes": 30,
+      "maxItems": 15,
+      "space": "header",
+      "align": "auto",
+      "newRow": false
+    }
+  ]
+}

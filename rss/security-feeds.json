@@ -1,0 +1,76 @@
+{
+  "format": "simple-dial-custom-widgets",
+  "version": 1,
+  "widgets": [
+    {
+      "id": "cw-example-rss-cisa-ics",
+      "type": "rss-feed",
+      "name": "CISA ICS Advisories",
+      "groupName": "Security Feeds",
+      "icon": "🚨",
+      "customIcon": "https://www.cisa.gov/profiles/cisad8_gov/themes/custom/gesso/favicon.png",
+      "feedUrl": "https://www.cisa.gov/cybersecurity-advisories/ics-advisories.xml",
+      "refreshMinutes": 30,
+      "maxItems": 15,
+      "space": "header",
+      "align": "auto",
+      "newRow": false
+    },
+    {
+      "id": "cw-example-rss-thn",
+      "type": "rss-feed",
+      "name": "The Hacker News",
+      "groupName": "Security Feeds",
+      "icon": "📰",
+      "customIcon": "https://thehackernews.com/favicon.ico",
+      "feedUrl": "https://feeds.feedburner.com/TheHackersNews",
+      "refreshMinutes": 30,
+      "maxItems": 15,
+      "space": "header",
+      "align": "auto",
+      "newRow": false
+    },
+    {
+      "id": "cw-example-rss-krebs",
+      "type": "rss-feed",
+      "name": "Krebs on Security",
+      "groupName": "Security Feeds",
+      "icon": "🔐",
+      "customIcon": "https://krebsonsecurity.com/favicon.ico",
+      "feedUrl": "https://krebsonsecurity.com/feed/",
+      "refreshMinutes": 60,
+      "maxItems": 15,
+      "space": "header",
+      "align": "auto",
+      "newRow": false
+    },
+    {
+      "id": "cw-example-rss-cloudflare-sec",
+      "type": "rss-feed",
+      "name": "Cloudflare Security",
+      "groupName": "Security Feeds",
+      "icon": "☁️",
+      "customIcon": "https://blog.cloudflare.com/favicon.ico",
+      "feedUrl": "https://blog.cloudflare.com/tag/security/rss/",
+      "refreshMinutes": 60,
+      "maxItems": 15,
+      "space": "header",
+      "align": "auto",
+      "newRow": false
+    },
+    {
+      "id": "cw-example-rss-unit42",
+      "type": "rss-feed",
+      "name": "Unit 42",
+      "groupName": "Security Feeds",
+      "icon": "🛡️",
+      "customIcon": "https://unit42.paloaltonetworks.com/favicon.ico",
+      "feedUrl": "https://unit42.paloaltonetworks.com/feed/",
+      "refreshMinutes": 60,
+      "maxItems": 15,
+      "space": "header",
+      "align": "auto",
+      "newRow": false
+    }
+  ]
+}
