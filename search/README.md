@@ -125,6 +125,7 @@ You can combine multiple search engines into a single compact search widget with
 Import any `.json` file in this folder via **Settings → Custom Widgets → 📤 Import**:
 
 - [`all-search-engines.json`](./all-search-engines.json) — Pre-grouped `Web Search` bundle (Google, Brave, DuckDuckGo, Bing, Ecosia)
+- [`cve-review.json`](./cve-review.json) — Pre-grouped `CVE Review` bundle (NVD, CVE.org, GitHub Advisories, OSV.dev, CISA KEV, Snyk) with prefix auto-routing
 - [`google.json`](./google.json) — Google Search
 - [`brave.json`](./brave.json) — Brave Search
 - [`duckduckgo.json`](./duckduckgo.json) — DuckDuckGo Search
